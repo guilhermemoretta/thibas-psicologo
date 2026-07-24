@@ -920,6 +920,7 @@ button {
 .footer__bottom-links {
     display: flex;
     gap: var(--spacing-md);
+    
 }
 
 /* CRÉDITO DO DESENVOLVEDOR NO RODAPÉ */
@@ -927,6 +928,7 @@ button {
     color: rgba(255, 255, 255, 0.5);
     font-size: var(--small-size);
     transition: var(--transition);
+    
 }
 
 .footer__developer-credit a {
@@ -934,6 +936,7 @@ button {
     text-decoration: underline;
     text-decoration-color: var(--primary-color);
     transition: var(--transition);
+    text-decoration: none;
 }
 
 .footer__developer-credit a:hover {
